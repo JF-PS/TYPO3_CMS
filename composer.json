@@ -56,5 +56,10 @@
     }
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "PhotothequeGCPPASGBCEPSJF\\PhotothequeGcppasgbcepsjf\\": "web/typo3conf/ext/phototheque_gcppasgbcepsjf/Classes"
+    }
+  }
 }
